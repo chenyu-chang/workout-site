@@ -4,7 +4,7 @@
 // title=群組名稱；reps=組次；options=可選動作；id=固定且不重複的動作編號。
 // 個別動作可設定 reps，優先於群組 reps（例如平板支撐使用秒數）。
 window.WORKOUT_CONFIG = {
-  "revision": 2,
+  "revision": 3,
   "walking": "快走 2 公里",
   "days": {
     "0": {
@@ -74,79 +74,6 @@ window.WORKOUT_CONFIG = {
       "groups": []
     },
     "3": {
-      "title": "腿",
-      "groups": [
-        {
-          "title": "腿推",
-          "reps": "4 組 × 8–12 下",
-          "options": [
-            {
-              "id": 75,
-              "en": "Leg Press",
-              "cn": "腿推機"
-            },
-            {
-              "id": 36,
-              "en": "Iso-Lateral Leg Press",
-              "cn": "獨立式腿推機"
-            },
-            {
-              "id": 32,
-              "en": "Plate-Loaded Leg Press",
-              "cn": "掛片式腿推機"
-            },
-            {
-              "id": 46,
-              "en": "Leg Press (Horizontal)",
-              "cn": "水平腿推機"
-            },
-            {
-              "id": 81,
-              "en": "Seated Leg Press (Machine)",
-              "cn": "坐姿腿推機"
-            }
-          ]
-        },
-        {
-          "title": "腿後側彎舉",
-          "reps": "4 組 × 10–12 下",
-          "options": [
-            {
-              "id": 80,
-              "en": "Seated Leg Curl (Machine)",
-              "cn": "坐姿腿彎舉"
-            },
-            {
-              "id": 76,
-              "en": "Lying Leg Curl (Machine)",
-              "cn": "臥姿腿彎舉"
-            }
-          ]
-        },
-        {
-          "title": "大腿前側伸展",
-          "reps": "4 組 × 10–12 下",
-          "options": [
-            {
-              "id": 79,
-              "en": "Leg Extension (Machine)",
-              "cn": "腿伸展機"
-            },
-            {
-              "id": 54,
-              "en": "Iso-Lateral Leg Extension",
-              "cn": "獨立式腿伸展"
-            },
-            {
-              "id": 31,
-              "en": "Leg Extension (Plated)",
-              "cn": "掛片式腿伸展"
-            }
-          ]
-        }
-      ]
-    },
-    "4": {
       "title": "胸＋核心",
       "groups": [
         {
@@ -214,6 +141,79 @@ window.WORKOUT_CONFIG = {
               "id": 44,
               "en": "Abdominal Crunch",
               "cn": "腹部捲曲"
+            }
+          ]
+        }
+      ]
+    },
+    "4": {
+      "title": "腿",
+      "groups": [
+        {
+          "title": "腿推",
+          "reps": "4 組 × 8–12 下",
+          "options": [
+            {
+              "id": 75,
+              "en": "Leg Press",
+              "cn": "腿推機"
+            },
+            {
+              "id": 36,
+              "en": "Iso-Lateral Leg Press",
+              "cn": "獨立式腿推機"
+            },
+            {
+              "id": 32,
+              "en": "Plate-Loaded Leg Press",
+              "cn": "掛片式腿推機"
+            },
+            {
+              "id": 46,
+              "en": "Leg Press (Horizontal)",
+              "cn": "水平腿推機"
+            },
+            {
+              "id": 81,
+              "en": "Seated Leg Press (Machine)",
+              "cn": "坐姿腿推機"
+            }
+          ]
+        },
+        {
+          "title": "腿後側彎舉",
+          "reps": "4 組 × 10–12 下",
+          "options": [
+            {
+              "id": 80,
+              "en": "Seated Leg Curl (Machine)",
+              "cn": "坐姿腿彎舉"
+            },
+            {
+              "id": 76,
+              "en": "Lying Leg Curl (Machine)",
+              "cn": "臥姿腿彎舉"
+            }
+          ]
+        },
+        {
+          "title": "大腿前側伸展",
+          "reps": "4 組 × 10–12 下",
+          "options": [
+            {
+              "id": 79,
+              "en": "Leg Extension (Machine)",
+              "cn": "腿伸展機"
+            },
+            {
+              "id": 54,
+              "en": "Iso-Lateral Leg Extension",
+              "cn": "獨立式腿伸展"
+            },
+            {
+              "id": 31,
+              "en": "Leg Extension (Plated)",
+              "cn": "掛片式腿伸展"
             }
           ]
         }

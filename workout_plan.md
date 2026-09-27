@@ -6,7 +6,7 @@
 
 - 目標：增肌，沒有特別優先的部位；規律訓練半年以上，無自述傷勢。
 - 地點：台灣 World Gym。
-- 週三至週六連續重訓，每天 3 個動作，每個動作 4 組、約 10 下。
+- 週四至週六連續重訓，每天 3 個動作，每個動作 4 組、約 10 下。
 - 使用固定式器材（包含掛片式）；不使用自由重量或滑輪／纜繩動作。核心可用墊上動作。
 - 每次重訓約 1 小時，之後快走 2 公里。
 - 週一羽球；週二、週日休息。
@@ -26,8 +26,8 @@
 |---|---|
 | 週一 | 羽球／補充重訓二選一；重訓為固定式下拉、腿彎舉、肩推，各群組選一個動作做 4 組 |
 | 週二 | 休息，可輕鬆散步 |
-| 週三 | 腿：WED-1、WED-2、WED-3 各選一個；最後 Walking（#25）2 公里 |
-| 週四 | 胸＋核心：THU-1、THU-2、THU-3 各選一個；最後 Walking（#25）2 公里 |
+| 週四 | 腿：THU-1、THU-2、THU-3 各選一個；最後 Walking（#25）2 公里 |
+| 週三 | 胸＋核心：WED-1、WED-2、WED-3 各選一個；最後 Walking（#25）2 公里 |
 | 週五 | 背＋核心：FRI-1、FRI-2、FRI-3 各選一個；最後 Walking（#25）2 公里 |
 | 週六 | 肩＋胸＋核心：SAT-1、SAT-2、SAT-3 各選一個；最後 Walking（#25）2 公里 |
 | 週日 | 休息，可輕鬆散步 |
@@ -36,12 +36,12 @@
 
 | 星期／位置 | 目的 | 可選動作（每格只選一個） | 正式組 |
 |---|---|---|---|
-| 週三 WED-1 | 腿推 | #75 Leg Press；#36 Iso-Lateral Leg Press；#32 Plate-Loaded Leg Press；#46 Leg Press (Horizontal)；#81 Seated Leg Press (Machine) | 4 × 8–12 下 |
-| 週三 WED-2 | 腿後側彎舉 | #80 Seated Leg Curl (Machine)；#76 Lying Leg Curl (Machine) | 4 × 10–12 下 |
-| 週三 WED-3 | 大腿前側伸展 | #79 Leg Extension (Machine)；#54 Iso-Lateral Leg Extension；#31 Leg Extension (Plated) | 4 × 10–12 下 |
-| 週四 THU-1 | 胸推 | #53 Chest Press (Machine)；#71 Iso-Lateral Chest；#85 Iso-Lateral Bench Press；#55 胸部推舉訓練機；#56 獨立式胸部推舉訓練機 | 4 × 8–12 下 |
-| 週四 THU-2 | 夾胸 | #51 Pec Deck (Machine)；#26 Chest Fly（僅限確認為固定式夾胸機） | 4 × 10–12 下 |
-| 週四 THU-3 | 捲腹 | #62 Crunch (Machine)；#20 Crunch；#44 Abdominal Crunch（確認為腹部捲曲動作或固定式捲腹機） | 4 × 10–15 下 |
+| 週四 THU-1 | 腿推 | #75 Leg Press；#36 Iso-Lateral Leg Press；#32 Plate-Loaded Leg Press；#46 Leg Press (Horizontal)；#81 Seated Leg Press (Machine) | 4 × 8–12 下 |
+| 週四 THU-2 | 腿後側彎舉 | #80 Seated Leg Curl (Machine)；#76 Lying Leg Curl (Machine) | 4 × 10–12 下 |
+| 週四 THU-3 | 大腿前側伸展 | #79 Leg Extension (Machine)；#54 Iso-Lateral Leg Extension；#31 Leg Extension (Plated) | 4 × 10–12 下 |
+| 週三 WED-1 | 胸推 | #53 Chest Press (Machine)；#71 Iso-Lateral Chest；#85 Iso-Lateral Bench Press；#55 胸部推舉訓練機；#56 獨立式胸部推舉訓練機 | 4 × 8–12 下 |
+| 週三 WED-2 | 夾胸 | #51 Pec Deck (Machine)；#26 Chest Fly（僅限確認為固定式夾胸機） | 4 × 10–12 下 |
+| 週三 WED-3 | 捲腹 | #62 Crunch (Machine)；#20 Crunch；#44 Abdominal Crunch（確認為腹部捲曲動作或固定式捲腹機） | 4 × 10–15 下 |
 | 週五 FRI-1 | 固定式下拉 | #67 Iso-Lateral Front Lat Pulldown；#84 Iso-Lateral Wide Pulldown | 4 × 8–12 下 |
 | 週五 FRI-2 | 固定式划船 | #30 Iso-Lateral Row (Machine)；#48 Seated Row (Machine)（確認非滑輪划船站）；#69 Iso-Lateral D.Y. Row | 4 × 8–12 下 |
 | 週五 FRI-3 | 腹部穩定／抬膝 | #1 Plank；#77 Flat Knee Raise | Plank：4 × 20–40 秒；Flat Knee Raise：4 × 10–15 下 |
@@ -178,7 +178,7 @@
 
 ## 網頁可編輯課表
 
-網頁實際使用 `workout-plan.js`，之後修改網頁課表只需修改該檔案；本 Markdown 為原始動作與規劃參考，不會自動同步。週一預設羽球，可切換補充重訓；下拉與肩推各 4 × 8–12 下，腿彎舉 4 × 10–12 下，可選動作與週五下拉、週三腿彎舉、週六肩推相同。
+網頁實際使用 `workout-plan.js`，之後修改網頁課表只需修改該檔案；本 Markdown 為原始動作與規劃參考，不會自動同步。週一預設羽球，可切換補充重訓；下拉與肩推各 4 × 8–12 下，腿彎舉 4 × 10–12 下，可選動作與週五下拉、週四腿彎舉、週六肩推相同。
 
 ## 保存規則更新
 
