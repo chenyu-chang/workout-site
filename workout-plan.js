@@ -1,10 +1,7 @@
-// 課表唯一編輯來源。修改後儲存並重新整理網頁即可，不需要編譯。
-// 修改課表後請增加 revision，避免舊進度套用到新課表。
-// days：0=週日、1=週一……6=週六。每個訓練日保留三個 groups。
-// title=群組名稱；reps=組次；options=可選動作；id=固定且不重複的動作編號。
-// 個別動作可設定 reps，優先於群組 reps（例如平板支撐使用秒數）。
+// 課表唯一來源。group.id 是穩定群組代碼；相同訓練目的使用相同 id。
+// muscles 用於近期部位重疊的排序提示；不是恢復評估。
 window.WORKOUT_CONFIG = {
-  "revision": 3,
+  "revision": 4,
   "walking": "快走 2 公里",
   "days": {
     "0": {
@@ -28,6 +25,10 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Wide Pulldown",
               "cn": "獨立式寬握下拉"
             }
+          ],
+          "id": "pulldown",
+          "muscles": [
+            "back"
           ]
         },
         {
@@ -44,6 +45,10 @@ window.WORKOUT_CONFIG = {
               "en": "Lying Leg Curl (Machine)",
               "cn": "臥姿腿彎舉"
             }
+          ],
+          "id": "leg-curl",
+          "muscles": [
+            "hamstrings"
           ]
         },
         {
@@ -65,6 +70,10 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Shoulder Press",
               "cn": "獨立肩部推舉訓練機"
             }
+          ],
+          "id": "shoulder-press",
+          "muscles": [
+            "shoulders"
           ]
         }
       ]
@@ -105,6 +114,11 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Chest Press",
               "cn": "獨立式胸部推舉訓練機"
             }
+          ],
+          "id": "chest-press",
+          "muscles": [
+            "chest",
+            "shoulders"
           ]
         },
         {
@@ -121,6 +135,10 @@ window.WORKOUT_CONFIG = {
               "en": "Chest Fly",
               "cn": "夾胸（限固定式器材）"
             }
+          ],
+          "id": "chest-fly",
+          "muscles": [
+            "chest"
           ]
         },
         {
@@ -142,6 +160,10 @@ window.WORKOUT_CONFIG = {
               "en": "Abdominal Crunch",
               "cn": "腹部捲曲"
             }
+          ],
+          "id": "crunch",
+          "muscles": [
+            "core"
           ]
         }
       ]
@@ -178,6 +200,11 @@ window.WORKOUT_CONFIG = {
               "en": "Seated Leg Press (Machine)",
               "cn": "坐姿腿推機"
             }
+          ],
+          "id": "leg-press",
+          "muscles": [
+            "quads",
+            "glutes"
           ]
         },
         {
@@ -194,6 +221,10 @@ window.WORKOUT_CONFIG = {
               "en": "Lying Leg Curl (Machine)",
               "cn": "臥姿腿彎舉"
             }
+          ],
+          "id": "leg-curl",
+          "muscles": [
+            "hamstrings"
           ]
         },
         {
@@ -215,6 +246,10 @@ window.WORKOUT_CONFIG = {
               "en": "Leg Extension (Plated)",
               "cn": "掛片式腿伸展"
             }
+          ],
+          "id": "leg-extension",
+          "muscles": [
+            "quads"
           ]
         }
       ]
@@ -236,6 +271,10 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Wide Pulldown",
               "cn": "獨立式寬握下拉"
             }
+          ],
+          "id": "pulldown",
+          "muscles": [
+            "back"
           ]
         },
         {
@@ -257,6 +296,10 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral D.Y. Row",
               "cn": "獨立式 D.Y. 划船"
             }
+          ],
+          "id": "row",
+          "muscles": [
+            "back"
           ]
         },
         {
@@ -275,6 +318,10 @@ window.WORKOUT_CONFIG = {
               "cn": "仰臥抬膝",
               "reps": "4 組 × 10–15 下"
             }
+          ],
+          "id": "core-stability",
+          "muscles": [
+            "core"
           ]
         }
       ]
@@ -301,6 +348,10 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Shoulder Press",
               "cn": "獨立肩部推舉訓練機"
             }
+          ],
+          "id": "shoulder-press",
+          "muscles": [
+            "shoulders"
           ]
         },
         {
@@ -312,6 +363,11 @@ window.WORKOUT_CONFIG = {
               "en": "Iso-Lateral Incline Press",
               "cn": "獨立式上斜胸推"
             }
+          ],
+          "id": "incline-press",
+          "muscles": [
+            "chest",
+            "shoulders"
           ]
         },
         {
@@ -330,9 +386,20 @@ window.WORKOUT_CONFIG = {
               "cn": "側腹捲腹",
               "reps": "每側 4 組 × 10–15 下"
             }
+          ],
+          "id": "side-core",
+          "muscles": [
+            "core"
           ]
         }
       ]
     }
-  }
+  },
+  "trainingDays": [
+    3,
+    4,
+    5,
+    6
+  ],
+  "retentionDays": 14
 };
